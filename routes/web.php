@@ -19,7 +19,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('send-mail', [MailController::class, 'index']);  
+// Route::get()
 
 Route::get('/dashboard', function () {
     return view('dashboard');
